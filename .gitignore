@@ -1,0 +1,23 @@
+# Secret keys — NEVER push this
+.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Vector store (large binary files)
+data/vectorstore/
+
+# Test artifacts
+test_report.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
